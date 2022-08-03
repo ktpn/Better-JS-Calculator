@@ -81,9 +81,74 @@ input::placeholder {
 
 h5 {
     text-align: center;
+    color: white;
 }
 
 .ktpn:hover {
     background-color: forestgreen;
     color: white;
+}
+
+
+/* For the Background */
+body {
+    background-color: rgb(10, 10, 61);
+}
+
+.stars {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 
+    -24vw -44vh 2px 2px #fff,
+    38vw -4vh 0px 0px #fff,
+    -20vw -48vh 1px 2px #fff,
+    -39vw 38vh 3px 1px #fff,
+    -42vw -11vh 0px 3px #fff,
+    12vw 15vh 3px 3px #fff,
+    42vw 6vh 3px 2px #fff,
+    -8vw 9vh 0px 2px #fff,
+    34vw -38vh 1px 0px #fff,
+    -17vw 45vh 3px 1px #fff,
+    22vw -36vh 3px 2px #fff,
+    -42vw 1vh 1px 0px #fff,
+    -14vw -44vh 1px 2px #fff,
+    28vw -4vh 0px 2px #fff,
+    -10vw -48vh 5px 2px #fff,
+    -29vw 38vh 3px 3px #fff,
+    -32vw -11vh 3px 3px #fff,
+    6vw 15vh 2px 5px #fff,
+    22vw 6vh 4px 1px #fff,
+    -4vw 9vh 3px 0px #fff,
+    14vw -38vh 3px 1px #fff,
+    -7vw 45vh 0px 4px #fff,
+    12vw -36vh 2px 1px #fff,
+    -32vw 50vh 1px 5px #fff,
+    -24vw -14vh 2px 2px #fff,
+    38vw -40vh 0px 0px #fff,
+    -20vw -8vh 1px 2px #fff,
+    -39vw -8vh 3px 1px #fff,
+    -42vw 11vh 0px 3px #fff,
+    12vw -15vh 3px 3px #fff,
+    42vw 50vh 3px 2px #fff,
+    -8vw -9vh 0px 2px #fff,
+    34vw 38vh 1px 0px #fff,
+    -17vw 5vh 3px 1px #fff,
+    22vw 36vh 3px 2px #fff,
+    -42vw 20vh 1px 0px #fff;
+
+    animation: zoom 10s alternate infinite;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(.75);
+    }
+    100%{
+        transform: scale(1.5);
+    }
 }

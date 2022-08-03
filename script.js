@@ -43,7 +43,7 @@ function App() {
             <div onClick={allClear} className="padButton AC tomato">AC</div>
             <div onClick={clear} className="padButton C tomato">C</div>
             <div onClick={() => display("/")} className="padButton div">/</div>
-            <div onClick={() => display("*")} className="padButton times">X</div>
+            <div onClick={() => display("*")} className="padButton times">x</div>
             <div onClick={() => display("7")} className="padButton seven dark-gray">7</div>
             <div onClick={() => display("8")} className="padButton eight dark-gray">8</div>
             <div onClick={() => display("9")} className="padButton nine dark-gray">9</div>
